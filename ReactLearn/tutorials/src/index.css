@@ -1,0 +1,214 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    color: blue;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold; */
+
+/* This is using google */
+/* font-family: 'Lobster', cursive; */
+/* font-family: 'Sevillana', cursive; */
+/* font-family: 'Titillium Web', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+/* } */
+
+/* .heading:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+img {
+    border: 2px solid red;
+    padding: 10px;
+    margin: 6px;
+    background-color: rgb(197, 5, 255);
+}
+
+img:hover {
+    background-color: aqua;
+    width: 200px;
+    height: 300px;
+} */
+
+
+
+
+
+
+/* Netflix CSS */
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.heading_style {
+    padding: 30px 0;
+    text-align: center;
+    font-family: "Rakeway", sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    background-color: aliceblue;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.cards {
+    width: 100%;
+    height: auto;
+}
+
+
+.card {
+    margin: 6%;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    background-color: aliceblue;
+    width: 21.25%;
+    border-radius: 12px;
+    box-shadow: 0px 13px 10px -7px black;
+    float: left;
+}
+
+.card_content {
+    box-shadow: 0px 13px 10px -8px black;
+    transform: scale(1.05, 1.05);
+}
+
+.card_image {
+    width: 100%;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+}
+
+.card_info {
+    background-color: aliceblue;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+    background-color: aliceblue;
+}
+
+.card_category {
+    font-family: "Rakeway", sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: gray;
+    background-color: aliceblue;
+}
+
+.card_title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: "Rakeway", sans-serif;
+    background-color: aliceblue;
+    text-transform: capitalize;
+}
+
+button {
+    padding: 5px 8px;
+    font-family: "Rakeway", sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: gray;
+    background-color: aliceblue;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    .card {
+        float: none;
+        margin: 5%;
+        width: 90%;
+    }
+} */
+
+/* ---------------------------------------------------------------------------- */
+/* Counter Page CSS */
+
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+    padding: 15px 20px;
+    background: rgb(237, 16, 200);
+    color: white;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+} */
+
+/*  Handling Events in ReactJS  */
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(224, 164, 220);
+}
+
+button {
+    padding: 10px 10px;
+    background: rgb(237, 16, 200);
+    color: white;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: medium;
+    border: 1px solid black;
+   
+}
+
+div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+input{
+    margin:20px ;
+    width: 270px;
+    height: 30px;
+
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+}
