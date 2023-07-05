@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Example</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    form div {
+        margin-bottom: 10px;
+    }
+
+    label {
+        display: inline-block;
+        width: 100px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 200px;
+    }
+
+    input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <h2>Example Form</h2>
+    <form id="myForm">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <input onclick="submitt" type="submit" value="Submit">
+    </form>
+    <div class="mainclass">
+
+    </div>
+
+    <script>
+        document.getElementById("myForm").addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent form submission.
+
+            // Get form values.
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+
+           // This Will POP UP the notification of form Submission.
+            alert(`Thanks For Submitting The Form,  ${name}`);
+           
+            // Do something with the form data (e.g., send it to a server).
+            console.log("Name: " + name);
+            console.log("Email: " + email);
+            console.log("Message: " + message);
+
+            // Reset form fields
+            document.getElementById("myForm").reset();
+        });
+
+        
+
+    </script>
+</body>
+
+</html>
